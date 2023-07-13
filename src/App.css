@@ -14,6 +14,14 @@ a {
   text-decoration: none;
 }
 
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 1rem;
+}
+
 .gradient__bg {
   /* ff 3.6+ */
   background: -moz-radial-gradient(

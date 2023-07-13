@@ -4,6 +4,7 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
+  text-transform: capitalize;
 }
 
 /* navbar */
@@ -97,6 +98,7 @@
   border-radius: 4px;
   text-align: right;
   display: none;
+  z-index: 10;
 }
 .navbar-dropdown p {
   margin: 2rem 1rem;
