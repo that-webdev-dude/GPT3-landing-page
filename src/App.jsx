@@ -14,8 +14,8 @@ function App() {
   return (
     <div id="App" className="App">
       <div className="gradient__bg">
-        <Navbar></Navbar>
-        <Header></Header>
+        <Navbar />
+        {/* <Header></Header> */}
       </div>
       <Brand></Brand>
       <WhatGPT3></WhatGPT3>
