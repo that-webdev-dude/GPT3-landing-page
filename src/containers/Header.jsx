@@ -1,5 +1,5 @@
 import React from "react";
-import aiImageURL from "../assets/ai.png";
+import aiImageURL from "../assets/ai_opt.png";
 import peopleImageURL from "../assets/people.png";
 import "./Header.css";
 
