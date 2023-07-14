@@ -1,0 +1,114 @@
+/* WhatGPT3.css */
+.whatGPT3 {
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(
+    circle at 100% 100%,
+    rgba(27, 120, 222, 1) 0%,
+    rgba(4, 44, 84, 1) 50%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(
+    circle at 100% 100%,
+    rgba(27, 120, 222, 1) 0%,
+    rgba(4, 44, 84, 1) 50%
+  );
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(
+    circle at 100% 100%,
+    rgba(27, 120, 222, 1) 0%,
+    rgba(4, 44, 84, 1) 50%
+  );
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(
+    circle at 100% 100%,
+    rgba(27, 120, 222, 1) 0%,
+    rgba(4, 44, 84, 1) 50%
+  );
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(
+    circle at 100% 100%,
+    rgba(27, 120, 222, 1) 0%,
+    rgba(4, 44, 84, 1) 50%
+  );
+
+  border-radius: 4px;
+  margin: 0 1rem;
+  padding: 2rem;
+}
+.whatGPT3 > * {
+  padding: 2rem;
+}
+
+.whatGPT3-heading {
+  display: flex;
+  align-items: center;
+}
+.whatGPT3-heading h1 {
+  flex: 1;
+  font-family: var(--font-family);
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 45px;
+  padding: 2rem 0;
+}
+
+.whatGPT3-heading-link {
+  flex: 1;
+  text-align: right;
+}
+.whatGPT3-heading-link a {
+  color: var(--color-subtext);
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  cursor: pointer;
+  padding: 0.5rem 0;
+}
+
+.whatGPT3-list {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.whatGPT3-list > :not(:first-child):not(:last-child) {
+  margin: 0 4rem;
+}
+
+/* media */
+@media screen and (max-width: 1050px) {
+  .whatGPT3-heading {
+    flex-direction: column;
+    align-items: start;
+  }
+  .whatGPT3-list {
+    flex-direction: column;
+  }
+  .whatGPT3-list > :not(:first-child):not(:last-child) {
+    margin: 2rem 0;
+  }
+  .whatGPT3-list > * {
+    padding: 1rem 0;
+  }
+}
+@media screen and (max-width: 700px) {
+  .whatGPT3 {
+    padding: 1rem;
+  }
+  .whatGPT3-heading {
+    margin-bottom: 3rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .whatGPT3 > * {
+    padding: 2rem 1rem;
+  }
+}

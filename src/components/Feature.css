@@ -1,0 +1,52 @@
+/* Feature.css */
+.feature {
+  width: 100%;
+}
+
+.feature h2 {
+  color: #fff;
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 75px;
+  letter-spacing: -0.96px;
+  margin-bottom: 0.5rem;
+  position: relative;
+}
+.feature h2::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 32px;
+  height: 2px;
+  background: linear-gradient(143deg, #ae67fa 0%, #f49867 97.4%), #fff;
+  border: none;
+}
+.feature p {
+  color: var(--color-text);
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.feature-horizontal {
+  display: flex;
+  align-items: start;
+}
+.feature-horizontal h2 {
+  flex: 1;
+}
+.feature-horizontal p {
+  flex: 3;
+}
+
+/* media */
+@media screen and (max-width: 1050px) {
+  .feature-horizontal {
+    display: block;
+  }
+}
