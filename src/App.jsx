@@ -18,9 +18,9 @@ function App() {
         <Header />
       </div>
       <Brand />
-      <WhatGPT3></WhatGPT3>
+      <WhatGPT3 />
       <Features></Features>
-      <Possibility></Possibility>
+      <Possibility />
       <CTA></CTA>
       <Blog></Blog>
       <Footer></Footer>
