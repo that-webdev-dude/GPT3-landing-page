@@ -1,15 +1,12 @@
 /* Feature.css */
 .feature {
   width: 100%;
-  /* display: flex;
-  align-items: flex-start;
-  justify-content: flex-start; */
 }
 
 .feature h2 {
   color: #fff;
   font-family: var(--font-family);
-  font-size: 24px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 800;
   letter-spacing: -0.96px;
@@ -45,6 +42,7 @@
   flex: 1;
 }
 .feature-horizontal p {
+  padding-left: 6rem;
   flex: 3;
 }
 
@@ -67,6 +65,10 @@
     font-size: 14px;
     flex: 2;
   }
+
+  .feature-horizontal p {
+    padding-left: 1rem;
+  }
 }
 @media screen and (max-width: 700px) {
   /*  */
@@ -80,6 +82,12 @@
     flex: 1;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
   /*  */
+  .feature {
+    flex-direction: column;
+  }
+  .feature-horizontal p {
+    padding: 0;
+  }
 }

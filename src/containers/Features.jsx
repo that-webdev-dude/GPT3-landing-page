@@ -34,7 +34,9 @@ const Features = () => {
             The Future is Now and You Just Need To Realize It. Step into Future
             Today & Make it Happen.
           </h2>
-          <a href="#home">Request Early Access to Get Started</a>
+          <div>
+            <a href="#home">Request Early Access to Get Started</a>
+          </div>
         </div>
         <div className="features-list">
           {featureData.map((feature) => (
