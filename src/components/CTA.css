@@ -1,0 +1,52 @@
+/* CTA.css */
+.cta {
+  background: linear-gradient(90deg, #ae67fa 0%, #f49867 97.4%);
+  padding: 4rem 3rem;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cta-heading h2 {
+  color: #000;
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+}
+.cta-heading a {
+  color: #0e0e0e;
+  font-family: var(--font-family);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.cta button {
+  border-radius: 40px;
+  background: #000;
+  color: #fff;
+  font-family: var(--font-family);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  padding: 1rem 3rem;
+  border: none;
+  outline: none;
+}
+
+@media screen and (max-width: 1050px) {
+  .cta {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .cta-heading {
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .cta {
+    padding: 2rem 1rem;
+  }
+}

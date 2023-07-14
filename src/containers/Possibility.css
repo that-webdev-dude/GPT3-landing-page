@@ -1,7 +1,7 @@
 /* Possibility.css */
 .possibility {
   display: flex;
-  margin: 4rem 0;
+  margin: 4rem 0 8rem;
   padding: 1rem 6rem;
   align-items: center;
 }
