@@ -15,7 +15,9 @@ function App() {
       <Features />
       <Possibility />
       <CTA />
-      <Footer></Footer>
+      <div className="color__footer">
+        <Footer />
+      </div>
     </div>
   );
 }

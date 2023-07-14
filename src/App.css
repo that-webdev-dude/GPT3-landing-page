@@ -22,6 +22,10 @@ a {
   padding: 0 1rem;
 }
 
+.color__footer {
+  background-color: var(--color-footer);
+}
+
 .gradient__bg {
   /* ff 3.6+ */
   background: -moz-radial-gradient(
