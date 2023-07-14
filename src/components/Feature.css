@@ -1,6 +1,9 @@
 /* Feature.css */
 .feature {
   width: 100%;
+  /* display: flex;
+  align-items: flex-start;
+  justify-content: flex-start; */
 }
 
 .feature h2 {
@@ -9,15 +12,15 @@
   font-size: 24px;
   font-style: normal;
   font-weight: 800;
-  line-height: 75px;
   letter-spacing: -0.96px;
   margin-bottom: 0.5rem;
   position: relative;
+  flex: 1;
 }
 .feature h2::before {
   content: "";
   position: absolute;
-  top: 4px;
+  top: -8px;
   left: 0;
   width: 32px;
   height: 2px;
@@ -31,6 +34,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: 30px;
+  flex: 3;
 }
 
 .feature-horizontal {
@@ -45,8 +49,37 @@
 }
 
 /* media */
+@media screen and (max-width: 1440px) {
+  /*  */
+}
 @media screen and (max-width: 1050px) {
-  .feature-horizontal {
-    display: block;
+  /*  */
+  .feature {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
   }
+  .feature h2 {
+    font-size: 22px;
+    flex: 1;
+  }
+  .feature p {
+    font-size: 14px;
+    flex: 2;
+  }
+}
+@media screen and (max-width: 700px) {
+  /*  */
+  .feature h2 {
+    font-size: 20px;
+    flex: 1;
+  }
+
+  .feature p {
+    font-size: 14px;
+    flex: 1;
+  }
+}
+@media screen and (max-width: 500px) {
+  /*  */
 }
