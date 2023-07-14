@@ -52,7 +52,7 @@
   text-transform: capitalize;
   border: none;
   outline: none;
-  width: 224px;
+  min-width: 192px;
 }
 .header-content-people {
   display: flex;
@@ -92,8 +92,11 @@
     font-size: 18px;
   }
   .header-content-email {
-    max-width: 75%;
+    max-width: 60%;
     margin: auto;
+  }
+  .header-content-email button {
+    min-width: 128px;
   }
   .header-content-people {
     display: none;
@@ -108,14 +111,17 @@
   }
 }
 @media screen and (max-width: 1050px) {
+  .header-content-email {
+    min-width: 100%;
+  }
 }
 @media screen and (max-width: 700px) {
-}
-@media screen and (max-width: 500px) {
   .header-content {
-    max-width: 100%;
+    min-width: 100%;
     margin: 1rem 0;
   }
+}
+@media screen and (max-width: 500px) {
   .header-content-title {
     font-size: 44px;
   }
