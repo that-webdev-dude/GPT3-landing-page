@@ -19,7 +19,7 @@ function App() {
       </div>
       <Brand />
       <WhatGPT3 />
-      <Features></Features>
+      <Features />
       <Possibility />
       <CTA></CTA>
       <Blog></Blog>
