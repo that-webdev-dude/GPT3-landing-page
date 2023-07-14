@@ -1,0 +1,10 @@
+/* Brand.css */
+.brand {
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.brand p {
+  display: inline-flex;
+  margin: 1rem 1.5rem;
+}
