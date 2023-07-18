@@ -18,6 +18,8 @@ Each section has a header with a title, presented in a clear and concise manner.
 The design prioritizes readability and ease of navigation, making it easy for users to understand the content.
 The page is fully responsive and suitable to be viewed on all devices.
 
+<img width="700px" src="https://github.com/that-webdev-dude/cris-dashboard/blob/main/screengrabs/cris-dashboard-screengrab.png" alt="app screengrab">
+
 ### Live Demo
 
 A live demo of the project is available [here](https://that-gpt3-landing-page.netlify.app/).
