@@ -5,7 +5,7 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <div id="#Home" className="header container">
+    <div id="home" className="header container">
       <div className="header-content">
         <h1 className="header-content-title gradient__text">
           Let’s Build Something amazing with GPT-3 OpenAI

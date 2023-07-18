@@ -1,6 +1,7 @@
 /* CTA.css */
 .cta {
   background: linear-gradient(90deg, #ae67fa 0%, #f49867 97.4%);
+  margin: 1rem;
   padding: 4rem 3rem;
   border-radius: 4px;
   display: flex;

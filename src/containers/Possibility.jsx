@@ -4,7 +4,7 @@ import possibilityImageURL from "../assets/possibility.png";
 
 const Possibility = () => {
   return (
-    <div id="possibility" className="container">
+    <div id="possibilities" className="container">
       <div className="possibility">
         <div className="possibility-image">
           <img src={possibilityImageURL} alt="possibility" />
